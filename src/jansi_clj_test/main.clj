@@ -18,6 +18,7 @@
   (:require [jansi-clj.core :as jansi])
   (:gen-class))
 
+; Toggle this to demonstrate both behaviours (i.e. initialised vs not-initialised)
 (def ^:private install-jansi? true)
 
 (defn -main
